@@ -1,0 +1,202 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.content-container {
+    display: flex;
+    align-items: center; /* Alignement vertical des éléments */
+}
+
+.image-container {
+    flex: 0 0 auto; /* La taille de la boîte de l'image sera déterminée par son contenu */
+}
+
+.text-container {
+    flex: 1; /* La boîte de texte occupera tout l'espace disponible */
+}
+
+.image-container img {
+    
+    max-width: 100%;
+    height: auto;
+  }
+  .image-container {
+    flex: 0 0 auto;
+    padding-left: 20px;
+  }
+
+  .content-with-image {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+.pagerh {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+h3 {
+    font-family: 'Arial', Times, serif; /* Police Times New Roman */
+    font-size: 23px; /* Taille de police */
+    font-weight: normal; /* Texte non gras */
+    color: #0f0f0f; /* Couleur du texte */
+    margin-bottom: 20px; /* Marge en bas */
+    line-height: 1.5; /* Hauteur de ligne */
+    text-align: left;
+    
+}
+
+
+.page-rh-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+.search-results-heading {
+    font-size: 40px; /* Taille de la police */
+    font-weight: bold; /* Gras */
+    text-align: left; /* Centrage du texte */
+    margin-top: 120px; /* Espacement en haut */
+    margin-bottom: 20px; /* Espacement en bas */
+    color: hsl(199,100%,33%); /* Couleur du texte */
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.search-container input {
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 600px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px; /* Définir la même hauteur que le bouton */
+}
+
+.search-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color:hsl(199,100%,33%);
+    color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 40px; /* Définir la même hauteur que l'entrée */
+}
+
+
+.loader {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.recommended-cvs-container {
+    margin-top: 20px;
+}
+
+.cv-list-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    gap: 20px;
+}
+
+.cv-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(255, 254, 254, 0.1);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cv-card h3 {
+    margin-bottom: 10px;
+}
+
+.embed-container {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.interaction-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.view-button,
+.like-button {
+    padding: 10px 15px;
+    font-size: 13px;
+    cursor: pointer;
+    border: none;
+    border-radius: 6px;
+    width: 90px;
+    height: 40px ;
+}
+
+.view-button {
+    background-color: hsl(199,100%,33%);
+    color: #fff;
+    margin-right: 1px;
+    text-align: center;
+}
+
+.like-button {
+    background-color: #5fb300;
+    color: #fff;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.rating-container {
+    display: flex;
+    align-items: center;
+    
+}
+.cv-card {
+    position: relative; /* Permet d'utiliser une position absolue pour les étoiles */
+}
+
+.cv-card {
+    position: relative; /* Permet d'utiliser une position absolue pour les étoiles */
+}
+
+.star-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction:row; /* Pour aligner les étoiles de droite à gauche */
+    margin-right: 30px;
+}
+
+.star {
+    cursor: pointer;
+    font-size: 24px;
+    color: #ccc;
+    margin-right: 5px; /* Marge à droite pour l'espacement entre les étoiles */
+}
+
+.star.selected,
+.star:hover,
+.star.selected ~ .star,
+.star:hover ~ .star {
+    color: #ffdd00; /* Couleur des étoiles sélectionnées ou survolées */
+}
+
+
+.no-results {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}

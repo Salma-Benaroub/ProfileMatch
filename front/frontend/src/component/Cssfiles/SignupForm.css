@@ -1,0 +1,127 @@
+/* Conteneur de connexion */
+.register-container {
+  display: flex;
+  justify-content: center; /* Centrer horizontalement le contenu */
+  align-items: center; /* Centrer verticalement le contenu */
+  height: 800px; /* La hauteur de la page */
+  background-color: #ffffff;  /* Couleur de fond, légèrement grisée */
+  padding: 20px; /* Espace autour du conteneur */
+}
+
+/* Section de l'image */
+.register-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1; /* Permet de prendre toute la largeur disponible */
+  padding-right: 20px; /* Espace entre l'image et le formulaire */
+  margin-top: 50px;
+}
+
+.register-image img {
+  max-width: 90%; /* Limiter la largeur de l'image */
+  height: auto; /* Conserver le ratio d'aspect */
+  border-radius: 10px; /* Coins arrondis */
+}
+
+/* Formulaire de connexion */
+.register-form {
+  flex: 1; /* Permet de prendre toute la largeur disponible */
+  background-color: #ffffff; /* Couleur de fond */
+  border: 1px solid #ccc; /* Bordure */
+  border-radius: 10px; /* Coins arrondis */
+  padding: 30px; /* Espace intérieur */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Ombre */
+  max-width: 550px; /* Largeur maximale */
+  margin-right: 50px;
+  margin-top: 70px;
+}
+
+.register-form h2 {
+  text-align: center;
+  margin-bottom: 20px; /* Espace sous le titre */
+  color: hsl(199,100%,33%); /* Couleur du texte */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Espace entre les champs */
+}
+
+input
+{
+  width: 100%; /* Remplir le conteneur */
+  height: 30px;
+  padding: 10px; /* Espace intérieur */
+  border: 1px solid #ccc; /* Bordure */
+  border-radius: 5px; /* Coins arrondis */
+}
+
+label {
+  display: block; /* Afficher les étiquettes comme des blocs */
+  margin-bottom: 5px; /* Espace sous l'étiquette */
+  color: #666; /* Couleur du texte */
+}
+
+/* Bouton de connexion */
+button[type='submit'] {
+  width: 80%;
+  margin: auto; /* Remplir le conteneur */
+  padding: 10px; /* Espace intérieur */
+  border: none; /* Pas de bordure */
+  border-radius: 10px; /* Coins arrondis */
+  background-color: #007bff; /* Couleur de fond */
+  color: #ffffff; /* Couleur du texte */
+  cursor: pointer; /* Curseur au survol */
+  transition: background-color 0.3s ease;
+  margin-left: 50px;
+}
+
+button[type='submit']:hover {
+  background-color: #0056b3; /* Changer de couleur au survol */
+}
+
+/* Style pour les éléments de formulaire en général */
+.form-element {
+  width: 100%; /* Assure que les éléments remplissent le conteneur */
+  padding: 8px; /* Espacement interne */
+  border: 1px solid #ccc; /* Bordure légère */
+  border-radius: 5px; /* Coins arrondis */
+  font-size: 14px; /* Taille de police */
+  background-color: #fff; /* Couleur de fond blanche */
+}
+
+/* Ajout d'un effet au survol */
+.form-element:hover {
+  border-color: #007bff; /* Bordure bleue lors du survol */
+}
+
+/* Style pour les éléments de formulaire lors du focus */
+.form-element:focus {
+  outline: none; /* Supprime l'outline par défaut du navigateur */
+  border-color: #007bff; /* Bordure bleue au focus */
+}
+
+/* Style spécifique pour les éléments <select> */
+.select {
+  -webkit-appearance: none; /* Supprime le style par défaut dans les navigateurs WebKit */
+  -moz-appearance: none; /* Supprime le style par défaut dans les navigateurs Firefox */
+  appearance: none; /* Supprime le style par défaut */
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iOS41IiBoZWlnaHQ9IjUuMSIgdmlld0JveD0iMCAwIDEwIDYiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CiAgPHBhdGggZD0iTTAgMEw1IDVMMTAgMEwiIGZpbGw9IiM4ODgiIC8+Cjwvc3ZnPgo='); /* Icône de flèche vers le bas */
+  background-repeat: no-repeat; /* Ne pas répéter l'image */
+  background-position: right 10px center; /* Position de l'icône */
+  padding-right: 30px; /* Espace pour l'icône */
+}
+
+.success-message {
+  color: #28a745; /* Couleur verte pour les messages de succès */
+  font-weight: bold;
+  text-align: center; /* Centrer le message */
+  margin-bottom: 20px; /* Espace sous le message */
+}
+
+.error-message {
+  color: #dc3545; /* Couleur rouge pour les messages d'erreur */
+  font-weight: bold;
+  text-align: center; /* Centrer le message */
+  margin-bottom: 20px; /* Espace sous le message */
+}

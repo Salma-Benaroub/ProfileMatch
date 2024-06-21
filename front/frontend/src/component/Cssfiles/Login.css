@@ -1,0 +1,96 @@
+/* Conteneur de connexion */
+.login-container {
+  display: flex;
+  justify-content: center; /* Centrer horizontalement le contenu */
+  align-items: center; /* Centrer verticalement le contenu */
+  height: 100vh; /* La hauteur de la page */
+  background-color: #ffffff;  /* Couleur de fond, légèrement grisée */
+  padding: 20px; /* Espace autour du conteneur */
+}
+
+/* Section de l'image */
+.login-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1; /* Permet de prendre toute la largeur disponible */
+  padding-right: 20px; /* Espace entre l'image et le formulaire */
+  margin-top: 60px;
+}
+
+.login-image img {
+  max-width: 80%; /* Limiter la largeur de l'image */
+  height: auto; /* Conserver le ratio d'aspect */
+  border-radius: 10px; /* Coins arrondis */
+}
+
+/* Formulaire de connexion */
+.login-form {
+  flex: 1; /* Permet de prendre toute la largeur disponible */
+  background-color: #ffffff; /* Couleur de fond */
+  border: 1px solid #ccc; /* Bordure */
+  border-radius: 10px; /* Coins arrondis */
+  padding: 30px; /* Espace intérieur */
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); /* Ombre */
+  max-width: 500px; /* Largeur maximale */
+  margin-right: 50px;
+  margin-top: 70px;
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px; /* Espace sous le titre */
+  color: hsl(199,100%,33%); /* Couleur du texte */
+}
+
+.form-group {
+  margin-bottom: 20px; /* Espace entre les champs */
+}
+
+input[type='email'],
+input[type='password'] {
+  width: 100%; /* Remplir le conteneur */
+  padding: 10px; /* Espace intérieur */
+  border: 1px solid #ccc; /* Bordure */
+  border-radius: 5px; /* Coins arrondis */
+}
+
+label {
+  display: block; /* Afficher les étiquettes comme des blocs */
+  margin-bottom: 5px; /* Espace sous l'étiquette */
+  color: #666; /* Couleur du texte */
+}
+
+/* Bouton de connexion */
+button[type='submit'] {
+  width: 80%;
+  margin: auto; /* Remplir le conteneur */
+  padding: 10px; /* Espace intérieur */
+  border: none; /* Pas de bordure */
+  border-radius: 10px; /* Coins arrondis */
+  background-color: #007bff; /* Couleur de fond */
+  color: #ffffff; /* Couleur du texte */
+  cursor: pointer; /* Curseur au survol */
+  transition: background-color 0.3s ease;
+  margin-left: 50px;
+}
+
+button[type='submit']:hover {
+  background-color: #0056b3; /* Changer de couleur au survol */
+}
+
+/* Lien d'inscription */
+.signup-link {
+  text-align: center; /* Centrer le texte */
+  margin-top: 10px; /* Espace au-dessus du lien */
+  color: #666; /* Couleur du texte */
+}
+
+.signup-link a {
+  color: #007bff; /* Couleur du lien */
+  text-decoration: none; /* Pas de soulignement */
+}
+
+.signup-link a:hover {
+  text-decoration: underline; /* Soulignement au survol */
+}

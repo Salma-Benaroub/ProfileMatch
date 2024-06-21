@@ -1,0 +1,53 @@
+/* formulaire.css */
+.form-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background:hsl(199,100%,33%) ;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, hsl(190, 86%, 97%), hsl(199,100%,33%)); 
+    background: linear-gradient(to bottom, #f2fcfe, hsl(199,100%,33%)); 
+    padding: 20px; 
+  }
+  .form-form {
+    flex: 1; 
+    background-color: #ffffff; 
+    border: 1px solid #ccc; 
+    border-radius: 10px; 
+    padding: 30px; 
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1); 
+    max-width: 500px; 
+    margin-right: 20px;
+    margin-top: 100px;
+    margin-left: 60px;
+  }
+  
+  .form-form h2 {
+    color:hsl(199,100%,33%);
+    margin-bottom: 20px; 
+    text-align: center;
+  }
+  
+  .form-form label {
+    display: block;
+    margin-bottom: 5px; 
+  }
+  .form-form input[type="text"] {
+    width: 100%; 
+    padding: 8px; 
+    margin-bottom: 15px; 
+  }
+  
+  .form-form button {
+    background-color: #007bff; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement interne */
+    border: none; /* Suppression de la bordure */
+    cursor: pointer; /* Curseur pointeur */
+    display: block; /* Affichage sur une nouvelle ligne */
+    margin: 0 auto; /* Centrage horizontal */
+  }
+  
+  .form-form button:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+  }
