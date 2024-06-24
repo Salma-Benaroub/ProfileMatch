@@ -1,6 +1,7 @@
-<<<<<<< HEAD
-# Getting Started with Create React App
+# ProfileMatch
+**ProfileMatch** is a recommendation system designed for Human Resources (HR) departments to efficiently match job candidates with relevant job openings. Utilizing distributed processing technologies like Hadoop and Spark, ProfileMatch processes and analyzes large volumes of CV data, extracting key information such as skills, professional experience, and LinkedIn profiles. By leveraging machine learning algorithms, the system classifies and recommends the most suitable candidates based on their qualifications and job requirements, streamlining the recruitment process and enhancing decision-making for HR professionals.
 
+# Getting Started with Create React App
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -70,6 +71,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 =======
-# ProfileMatch
-**ProfileMatch** is a recommendation system designed for Human Resources (HR) departments to efficiently match job candidates with relevant job openings. Utilizing distributed processing technologies like Hadoop and Spark, ProfileMatch processes and analyzes large volumes of CV data, extracting key information such as skills, professional experience, and LinkedIn profiles. By leveraging machine learning algorithms, the system classifies and recommends the most suitable candidates based on their qualifications and job requirements, streamlining the recruitment process and enhancing decision-making for HR professionals.
->>>>>>> 10aa2a0154aca7f2e2cd1c1cfb08f6091e57f53b
